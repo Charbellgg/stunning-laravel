@@ -44,7 +44,7 @@ Options Indexes FollowSymLinks
 AllowOverride all
 Require all granted
 </Directory><br>
-4.Go to the sites-enabled folder which is located inside apache2. Write the following lines to the folder below “<VirtualHost *:80>” : 
+4.Go to the sites-enabled folder which is located inside apache2. Write the following lines to the folder below “<VirtualHost *:80>” and remove all similar lines from the file. 
 ServerAdmin webmaster@localhost
 DocumentRoot /var/www/html/stunning-laravel/public/<br>
 5.Restart apache2 by using: sudo systemctl restart apache2.<br>
